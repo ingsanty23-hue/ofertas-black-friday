@@ -89,6 +89,16 @@
   .card .btn{width:100%;justify-content:center}
   .card .note{font-size:.74rem;color:var(--muted);text-align:center;margin-top:.7rem}
 
+  /* Videos */
+  .videos{background:var(--paper)}
+  .vgrid{display:flex;gap:28px;justify-content:center;flex-wrap:wrap}
+  .vcard{width:min(340px,100%);background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+  .vframe{position:relative;aspect-ratio:9/16;background:var(--navy)}
+  .vframe iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .vcard .vb{padding:18px 20px 22px;text-align:center}
+  .vcard h3{font-size:1.4rem;margin-bottom:.6rem}
+  .vcard .btn{width:100%;justify-content:center}
+
   /* Hosts */
   .hosts{background:var(--paper)}
   .hosts .grid2{display:grid;grid-template-columns:1fr 1fr;gap:28px}
@@ -163,6 +173,7 @@
     </a>
     <ul class="menu">
       <li><a href="#featured">This Week's Picks</a></li>
+      <li><a href="#videos">Videos</a></li>
       <li><a href="#hosts">Flip &amp; Emma</a></li>
       <li><a href="#approach">How We Choose</a></li>
       <li><a href="#more">More Finds</a></li>
@@ -264,6 +275,25 @@
           </div>
         </div>
       </article>
+    </div>
+  </div>
+</section>
+
+<section class="videos" id="videos">
+  <div class="wrap">
+    <div class="head reveal">
+      <div class="eyebrow">Watch the demos</div>
+      <h2>See it in seconds.</h2>
+      <p>Short demos from Flip and Emma, so you know exactly what each find does before you check it out.</p>
+    </div>
+    <div class="vgrid">
+      <div class="vcard reveal">
+        <div class="vframe"><iframe src="https://www.youtube-nocookie.com/embed/qLQXZYiXs2k" title="Flip tests the 3-piece vegetable peeler set" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="vb">
+          <h3>Flip tests the 3-piece peeler set</h3>
+          <a class="btn btn-navy" href="https://www.amazon.com/dp/B0DCVJN7T9?ref=t_ac_view_request_product_image&amp;campaignId=amzn1.campaign.3AM2BW7GYG7HB&amp;linkCode=tr1&amp;tag=aristides20-20&amp;linkId=amzn1.campaign.3AM2BW7GYG7HB_1793306185962" target="_blank" rel="sponsored nofollow noopener">View on Amazon →</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
